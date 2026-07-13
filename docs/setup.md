@@ -64,14 +64,14 @@ Tilt servo signal  → GPIO 15
 ### IR LED Circuit (LDR auto-switching)
 
 ```
-5V ──\[10kΩ]──┬──\[330Ω]──→ 2N2222 BASE (middle leg)
+5V ──[10kΩ]──┬──[330Ω]──→ 2N2222 BASE (middle leg)
              │
-           \[LDR]
+           [LDR]
              │
             GND
 
 2N2222 EMITTER (left leg)    → GND
-2N2222 COLLECTOR (right leg) → 4× \[100Ω] → IR LED (+)
+2N2222 COLLECTOR (right leg) → 4× [100Ω] → IR LED (+)
                                              IR LED (−) → GND
 ```
 
@@ -104,7 +104,7 @@ Download from [arduino.cc](https://www.arduino.cc/en/software)
 * Add to Additional Board Manager URLs:
 
 ```
-https://dl.espressif.com/dl/package\_esp32\_index.json
+https://dl.espressif.com/dl/package_esp32_index.json
 ```
 
 * Go to **Tools → Board → Boards Manager**
@@ -126,22 +126,22 @@ Go to **Sketch → Include Library → Manage Libraries**
 
 ## Configuration
 
-Open `firmware/ESP32\_CAM\_Surveillance.ino` and edit these lines at the top:
+Open `firmware/ESP32_CAM_Surveillance.ino` and edit these lines at the top:
 
 ```cpp
 // WiFi credentials
-const char\* WIFI\_SSID = "YOUR\_WIFI\_NAME";
-const char\* WIFI\_PASS = "YOUR\_WIFI\_PASSWORD";
+const char* WIFI_SSID = "YOUR_WIFI_NAME";
+const char* WIFI_PASS = "YOUR_WIFI_PASSWORD";
 
 // Static IP — change to match your network
 // Find your gateway: Windows CMD → ipconfig → Default Gateway
-IPAddress STATIC\_IP(192, 168, 1, 100);  // ← pick any free IP
+IPAddress STATIC_IP(192, 168, 1, 100);  // ← pick any free IP
 IPAddress GATEWAY  (192, 168, 1,   1);  // ← your router IP
 IPAddress SUBNET   (255, 255, 255,  0);  // ← leave this
 IPAddress DNS      (  8,   8,   8,  8);  // ← leave this
 ```
 
-> Example: if your gateway is 192.168.108.1 → use 192.168.108.150 for STATIC\_IP
+> Example: if your gateway is 192.168.108.1 → use 192.168.108.150 for STATIC_IP
 
 \---
 
@@ -222,7 +222,7 @@ Material : PLA
 Layer    : 0.2mm
 Infill   : 25-30%
 Walls    : 3-4 perimeters
-Supports : Yes for elec\_base only
+Supports : Yes for elec_base only
 ```
 
 \---
@@ -238,7 +238,7 @@ Supports : Yes for elec\_base only
 |IR LED not glowing|2N2222 orientation wrong|Flat face toward you: left=E, mid=B, right=C|
 |No WiFi connection|Wrong credentials or 5GHz network|ESP32 only supports 2.4GHz|
 |Website laggy|WiFi power saving enabled|Already disabled in firmware — check router distance|
-|Motion too sensitive|Lighting changes triggering|Increase `MOTION\_THRESHOLD` value in code|
+|Motion too sensitive|Lighting changes triggering|Increase `MOTION_THRESHOLD` value in code|
 |IP keeps changing|DHCP reassigning|Static IP already configured — check GATEWAY matches your router|
 
 \---
