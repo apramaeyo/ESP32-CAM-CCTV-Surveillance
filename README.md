@@ -28,7 +28,7 @@ Dual-axis pan/tilt CCTV system with live MJPEG streaming, night vision, motion d
 - C/C++
 - HTML/CSS/JavaScript
 
-## Demo
+## Demo videos (click to view)
 
 [![ESP32-CAM CCTV Demo 1](https://img.youtube.com/vi/uphCyD1VkAQ/maxresdefault.jpg)](https://youtu.be/uphCyD1VkAQ)
 
@@ -50,7 +50,7 @@ Dual-axis pan/tilt CCTV system with live MJPEG streaming, night vision, motion d
 
 ![PCB](docs/images/PCB_FRONT.png)
 
-### Night Vision
+### Night Vision Circuit
 
 ![Night Vision](hardware/wiring_diagram_IR_LED.png)
 
