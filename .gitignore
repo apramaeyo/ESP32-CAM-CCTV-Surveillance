@@ -1,0 +1,28 @@
+# Arduino temporary files
+*.ino.cpp
+*.ino.cpp.d
+*.elf
+*.hex
+*.bin
+*.map
+*.eep
+
+# Build folders
+build/
+build-*/
+
+# Arduino IDE metadata
+.sketch/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
