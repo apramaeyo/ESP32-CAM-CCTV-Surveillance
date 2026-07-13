@@ -34,7 +34,7 @@ Dual-axis pan/tilt CCTV system with live MJPEG streaming, night vision, motion d
 
 ### Finished Project
 
-![Finished Project](docs/images/FRONT_VIEW.jpg)
+![Finished Project](docs/images/FRONT_VIEW.png)
 
 ### Live Web Interface
 
@@ -46,7 +46,7 @@ Dual-axis pan/tilt CCTV system with live MJPEG streaming, night vision, motion d
 
 ### Night Vision
 
-![Night Vision](hardware/WIRING_DIAGRAM_IR_LED.png)
+![Night Vision](hardware/wiring_diagram_IR_LED.png)
 
 
 ## Future Improvements
