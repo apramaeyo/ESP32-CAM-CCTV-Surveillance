@@ -30,7 +30,13 @@ Dual-axis pan/tilt CCTV system with live MJPEG streaming, night vision, motion d
 
 ## Demo
 
-(Add YouTube video)
+[![ESP32-CAM CCTV Demo 1](https://img.youtube.com/vi/uphCyD1VkAQ/maxresdefault.jpg)](https://youtu.be/uphCyD1VkAQ)
+
+[![ESP32-CAM CCTV Demo 2](https://img.youtube.com/vi/F1fGy5tqCIQ/maxresdefault.jpg)](https://youtu.be/F1fGy5tqCIQ)
+
+[![ESP32-CAM CCTV Demo 3](https://img.youtube.com/vi/pY-STUEJHV8/maxresdefault.jpg)](https://youtu.be/pY-STUEJHV8)
+
+[![ESP32-CAM CCTV Demo 4](https://img.youtube.com/vi/E-zW0o_Lmso/maxresdefault.jpg)](https://youtu.be/E-zW0o_Lmso)
 
 ### Finished Project
 
