@@ -42,8 +42,8 @@
 ### Power
 
 ```
-18650 Pack (+) → MT3608 IN+
-18650 Pack (−) → MT3608 IN−
+18650 Pack (+) → LM2596S IN+
+18650 Pack (−) → LM2596S IN−
 LM2596S OUT+    → ESP32-CAM 5V
 LM2596S OUT+    → Pan servo VCC 
 LM2596S OUT+    → Tilt servo VCC 
