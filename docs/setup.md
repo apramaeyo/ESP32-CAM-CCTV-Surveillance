@@ -211,7 +211,7 @@ When motion is detected:
 
 ## 3D Printing
 
-Files in `3d\_models/` folder.
+Files in `3d_models` folder.
 
 
 
